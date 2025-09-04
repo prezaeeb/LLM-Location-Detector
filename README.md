@@ -27,3 +27,13 @@ The script operates in two main parts:
     It then uses the folium library to create an interactive map centered on the extracted latitude and longitude.
     A marker is placed at the exact location, complete with a tooltip and popup showing the name of the place.
     The final map is saved as an HTML file.
+
+<h3>Usage</h3>
+
+1. Save the script: Save the code provided in the location_detector.py file.
+
+2. Install dependencies: Follow the installation steps above.
+
+3. Run the script: Execute the script from your terminal.
+
+        -python location_detector.py
