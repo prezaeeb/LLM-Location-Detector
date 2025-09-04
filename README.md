@@ -4,6 +4,16 @@
 
 This project demonstrates the practical application of **LLMs** and **APIs** to solve a real-world problem. Using Python, the script communicates with a generative AI model to intelligently extract a specific location from a natural language query. It leverages **JSON** to receive the structured geospatial data, which is then used by the **Folium library for geospatial data visualization**. The final output is an interactive map that accurately plots the location, showcasing the power of combining AI with data visualization techniques.
 
+<h3>ETL (Extract, Transform, Load) Process</h3>
+This script follows a classic ETL pattern, albeit in a simplified form.
+
+ - **Extract:** The process begins by extracting the raw, unstructured data from the user query.
+
+- **Transform:** This is the core logical step. The script sends the extracted text to the LLM, which transforms the natural language into a structured JSON object containing the name and coordinates. This step standardizes the data into a usable format.
+
+- **Load:** Finally, the structured data is loaded into the folium library. The script then uses this data to plot the location on a map, saving the final result as an HTML file for easy viewing.
+
+
 
 <h3>Code Description</h3>
 This Python script demonstrates how to leverage a large language model (LLM) to extract a specific geographic location from a text query and then plot that location on an interactive map. It combines the power of AI with a practical data visualization tool to turn a simple text prompt into a useful map.
