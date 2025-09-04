@@ -1,5 +1,11 @@
 # LLM-Location-Detector
 
+<h3>Project Description</h3>
+
+This project demonstrates the practical application of **LLMs** and **APIs** to solve a real-world problem. Using Python, the script communicates with a generative AI model to intelligently extract a specific location from a natural language query. It leverages **JSON** to receive the structured geospatial data, which is then used by the **Folium library for geospatial data visualization**. The final output is an interactive map that accurately plots the location, showcasing the power of combining AI with data visualization techniques.
+
+
+<h3>Code Description</h3>
 This Python script demonstrates how to leverage a large language model (LLM) to extract a specific geographic location from a text query and then plot that location on an interactive map. It combines the power of AI with a practical data visualization tool to turn a simple text prompt into a useful map.
 
 <h3>Prerequisites</h3>
